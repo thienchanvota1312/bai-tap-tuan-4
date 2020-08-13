@@ -28,10 +28,10 @@ public class Person {
     	return "Person[name ="+ name + ", address = " + address + "]";
     }
 	
-	  public static void main(String[] args){
-        Person p = new Person("Pham Dinh Thi", "Me Tri");
-        String s = p.toString();
-        System.out.println(s);
+    public static void main(String[] args){
+    Person p = new Person("Pham Dinh Thi", "Me Tri");
+    String s = p.toString();
+    System.out.println(s);
     }
 
 }
